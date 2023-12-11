@@ -1,3 +1,4 @@
+/*
 #include<arpa/inet.h>
 #include<stdio.h>
 #include<errno.h>
@@ -5,7 +6,7 @@
 
 int main(){
     //CREATING A SOCKET
-    int sockfd = socket(AF_INET, SOCK_STREAM,0);
+    int sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd == -1) {
         perror("webserver(socket)");
         return 1;
@@ -33,7 +34,7 @@ int main(){
 
 }
 
-/*
+*/
 
 #include <arpa/inet.h>
 #include <errno.h>
@@ -68,5 +69,3 @@ int main() {
 
     return 0;
 }
-
-*/
